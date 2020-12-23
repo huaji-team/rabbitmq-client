@@ -35,6 +35,7 @@ class QueueBuilder extends Builder
     public function setQueue(string $queue): self
     {
         $this->queue = $queue;
+
         return $this;
     }
 
@@ -53,6 +54,7 @@ class QueueBuilder extends Builder
     public function setExclusive(bool $exclusive): self
     {
         $this->exclusive = $exclusive;
+
         return $this;
     }
 }

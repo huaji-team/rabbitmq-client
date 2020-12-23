@@ -71,6 +71,7 @@ class ExchangeBuilder extends Builder
     public function setInternal(bool $internal): self
     {
         $this->internal = $internal;
+
         return $this;
     }
 }
