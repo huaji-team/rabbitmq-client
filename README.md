@@ -3,8 +3,9 @@
 RabbitMQ 是一个很常用的消息中间件，但是官方提供客户端比较难用，好理解使用方便为目的，再次封装一下。
 
 # 安装
-
-
+```shell
+composer require huaji-team/rabbitmq-client
+```
 # 生产消息
 
 ```php
