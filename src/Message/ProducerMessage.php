@@ -6,9 +6,12 @@
 
 namespace PhpRabbitMQClient\Message;
 
-
 use PhpAmqpLib\Message\AMQPMessage;
 
+/**
+ * Class ProducerMessage
+ * @package PhpRabbitMQClient\Message
+ */
 class ProducerMessage extends Message
 {
     /**

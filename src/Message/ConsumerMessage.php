@@ -9,6 +9,10 @@ namespace PhpRabbitMQClient\Message;
 use PhpAmqpLib\Message\AMQPMessage;
 use PhpRabbitMQClient\Builder\QueueBuilder;
 
+/**
+ * Class ConsumerMessage
+ * @package PhpRabbitMQClient\Message
+ */
 abstract class ConsumerMessage extends Message
 {
     /**
