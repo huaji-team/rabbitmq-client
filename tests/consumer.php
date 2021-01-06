@@ -33,8 +33,8 @@ class Consumer extends ConsumerMessage
 }
 
 $consumer = new Consumer('liu-exchange', 'liu-routeking', 'liu-queue');
-//$o->setNoACK(true);
-
+//$consumer->setNoACK(true);
+//$consumer->isRequeue(false);
 $client->consume($consumer);
 
 
