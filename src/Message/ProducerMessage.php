@@ -76,7 +76,7 @@ class ProducerMessage extends Message
      */
     private function setMessageId():self
     {
-        $id = base_convert(floor(microtime(true) * 1000000), 10, 36).mt_rand(10, 99);
+        $id = (string)(microtime(true) * 1000).mt_rand(10, 99);
 
         $this->setProperties('message_id', $id);
 
